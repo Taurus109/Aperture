@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #181818;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+header .container{
+    max-width: 1288px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li{
+    margin-left: 32px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+header nav ul li:first-of-type{
+    margin-right: 24px;
+}
+header nav ul li:first-of-type a{
+    font-size: 13px;
+}
+header nav ul li:last-of-type{
+    margin-left: 31px;
+}
+header nav ul li:last-of-type a{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 20px;
+    font-size: 16px;
+    color: black;
+}
+
+/*main banner */
+
+.main_banner{
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    height: calc(100vh - 83px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
+    box-sizing: border-box;
+}
+.main_banner article{
+    max-width: 580px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.main_banner article h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.main_banner article h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.main_banner article p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+/*Sunset */
+.sunset{
+    background-image: url("../images/Fuji.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+}
+.sunset article{
+    max-width: 292px;
+    font-family: 'Poppins', sans-serif;
+}
+.sunset article h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset article p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*Wood */
+.Wood{
+    background-image: url("../images/Wood.jpg");
+    height: calc(50% - 60px/2 + 10px);
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+}
+.Wood article{
+    max-width: 292px;
+    font-family: 'Poppins', sans-serif;
+}
+.Wood article h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.Wood article p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*Black */
+.Black{
+    background-image: url("../images/Rectangle.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+}
+.Black article{
+    max-width: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.Black article h1{
+    font-style: normal;
+    left: calc(50% - 229px/2 + 0.5px);
+    margin-top: -7px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.Black article h3{
+    font-style: normal;
+    left: calc(50% - 441px/2 + 0.5px);
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+/* Mount*/
+.Mount {
+    background-image: url("../images/Mount.png");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+}
+.Mount article{
+    max-width: 571px;
+    font-family: 'Poppins', sans-serif;
+}
+.Mount article h4{
+    top: calc(50% - 20px / 2 - 40px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.Mount article p{
+    font-style: normal;
+    top: calc(50% - 80px/2 + 10px);
+    font-weight: 400;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/* Black_too*/
+.Black_too{
+    background-image: url("../images/Rectangle.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+}
+.Black_too article{
+    max-width: 580px;
+    font-family: 'Poppins', sans-serif;
+}
+.Black_too article h1{
+    left: calc(50% - 571px/2 + 0.5px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Black_too article h4{
+    left: calc(50% - 224px/2);
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.Touch{
+    background: #FFFFFF;
+    line-clamp:none;
+    height: 42px;
+    width: 154px;
+    border-radius: 14px;
+    left: calc(50% - 102px/2 + 16px);
+    top: calc(50% - 20px/2 - 2px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-color: #000000;
+    box-sizing: border-box;
+}
+.Touch img{
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16 5.51367C21.7914 5.51367 26.4861 10.2083 26.4861 15.9998C26.4861 21.7913 21.7914 26.4859 16 26.4859C10.2085 26.4859 5.51385 21.7913 5.51385 15.9998C5.51385 10.2083 10.2085 5.51367 16 5.51367Z" stroke="black" stroke-width="12.5833" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+}
