@@ -51,6 +51,48 @@ header nav ul li:last-of-type a{
     color: black;
 }
 
+/*what_we_do */
+
+.What_we_do{
+    background-color: black;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+.What_we_do .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.What_we_do h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.What_we_do h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.What_we_do .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
 /*main banner */
 
 .main_banner{
