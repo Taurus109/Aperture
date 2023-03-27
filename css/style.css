@@ -482,6 +482,52 @@ header nav ul li:last-of-type a{
     padding-bottom: 62px;
     box-sizing: border-box;
 }
+.Black_images1{
+    display: flex;
+    align-items: center;
+    Width:128px;
+    Height:36px;
+    box-sizing: border-box;
+    margin-right: 109px;
+    margin-top: 40px;
+}
+.Black_images2{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    Width:128px;
+    Height:78px;
+    margin-left: 419px;
+}
+.Black_images3{
+    display: flex;
+    align-items: center;
+    Width:128px;
+    Height:20px;
+    box-sizing: content-box;
+    padding-right: 656px;
+    margin-bottom: 40px;
+}
+.Black_images4{
+    display: flex;
+    align-items: center;
+    Width:128px;
+    Height:20px;
+    box-sizing: content-box;
+    padding-left: 108px;
+    margin-bottom: 40px;
+}
+.Black_images5{
+    display: flex;
+    align-items: center;
+    Width:128px;
+    Height:20px;
+    box-sizing: content-box;
+    padding-left: 108px;
+    margin-bottom: 140px;
+}
+
+
 .Black_too article{
     max-width: 580px;
     font-family: 'Poppins', sans-serif;
